@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1135559100250774}
+  m_IsPrefabParent: 1
+--- !u!1 &1028738971810932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4407971428185114}
+  - component: {fileID: 114376798916282218}
+  - component: {fileID: 114547950358117898}
+  - component: {fileID: 114760304740726712}
+  m_Layer: 0
+  m_Name: Actions2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1135559100250774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4113103684483636}
+  - component: {fileID: 212792844701228754}
+  - component: {fileID: 50097224378107248}
+  - component: {fileID: 61544354523801706}
+  - component: {fileID: 114839638489430964}
+  - component: {fileID: 114557823039807764}
+  m_Layer: 0
+  m_Name: SlimeProjectile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1146200024311390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4029175283324802}
+  - component: {fileID: 114907294818184584}
+  - component: {fileID: 114626940317285390}
+  - component: {fileID: 114127906920802610}
+  m_Layer: 0
+  m_Name: Actions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4029175283324802
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146200024311390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4113103684483636}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4113103684483636
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135559100250774}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4029175283324802}
+  - {fileID: 4407971428185114}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4407971428185114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028738971810932}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4113103684483636}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50097224378107248
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135559100250774}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &61544354523801706
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135559100250774}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+--- !u!114 &114127906920802610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146200024311390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b27e5b79946364236b77e7bf08160075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventTrigger: 3
+  interval: 0
+  clips:
+  - {fileID: 8300000, guid: 80bb37d112370418d934c490b3bf8bde, type: 3}
+--- !u!114 &114376798916282218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028738971810932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1e4d77cdc85454491877d8a46fd5f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventTrigger: 2
+  interval: 0
+  randomAngle: 1
+  anim:
+    frames:
+    - {fileID: 21300008, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300010, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300012, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300014, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300016, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300018, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300020, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    fps: 10
+  effectInfo:
+    isSelfDeactivating: 1
+    fadeInTime: 0
+    lifeTime: 0.7
+    fadeOutTime: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &114547950358117898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028738971810932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd9f0a1115c749809fc2d829eecf8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventTrigger: 2
+  interval: 0
+  prefab: {fileID: 1958248397731602, guid: f80526f6854434d4c96726b5be88436a, type: 2}
+--- !u!114 &114557823039807764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135559100250774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e50dff18d55f54c55abd525251724237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 212792844701228754}
+  anim:
+    frames: []
+    fps: 10
+  playOnStart: 0
+  looping: 0
+  ignoreTimeScaling: 0
+  destroyOnFinish: 0
+--- !u!114 &114626940317285390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146200024311390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd9f0a1115c749809fc2d829eecf8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventTrigger: 3
+  interval: 0
+  prefab: {fileID: 1958248397731602, guid: f80526f6854434d4c96726b5be88436a, type: 2}
+--- !u!114 &114760304740726712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028738971810932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b27e5b79946364236b77e7bf08160075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventTrigger: 2
+  interval: 0
+  clips:
+  - {fileID: 8300000, guid: 80bb37d112370418d934c490b3bf8bde, type: 3}
+--- !u!114 &114839638489430964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135559100250774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156c45bcbbf2d43608faff0bcf743aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileName: Slimeball
+  speed: 4
+  setAngle: 1
+  target: Player
+  lifeTime: 1
+  destroyOnCollide: 1
+  size: {x: 1, y: 1}
+  projectileAnim:
+    frames:
+    - {fileID: 21300000, guid: 0e144fa35fc4545ee9a9bd5d4513bcb7, type: 3}
+    - {fileID: 21300002, guid: 0e144fa35fc4545ee9a9bd5d4513bcb7, type: 3}
+    - {fileID: 21300004, guid: 0e144fa35fc4545ee9a9bd5d4513bcb7, type: 3}
+    fps: 10
+--- !u!114 &114907294818184584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146200024311390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1e4d77cdc85454491877d8a46fd5f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventTrigger: 3
+  interval: 0
+  randomAngle: 1
+  anim:
+    frames:
+    - {fileID: 21300008, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300010, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300012, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300014, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300016, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300018, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    - {fileID: 21300020, guid: a70bd09a56e0f457a837496329ecba77, type: 3}
+    fps: 10
+  effectInfo:
+    isSelfDeactivating: 1
+    fadeInTime: 0
+    lifeTime: 0.7
+    fadeOutTime: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!212 &212792844701228754
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135559100250774}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 0e144fa35fc4545ee9a9bd5d4513bcb7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0

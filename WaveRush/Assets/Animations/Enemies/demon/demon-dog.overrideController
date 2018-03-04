@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: demon-dog
+  m_Controller: {fileID: 9100000, guid: f6f110f963665410abc1968f2e06f8cb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6c352b92207094b3eb2ca6b1228f3ff6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 080c8b8cbd351438a8a0494c37c63fd5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 84dd62974ef7c4fcc8c4e8c821719dae, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: aa6f67083b1f2412886a9fceedc47fc0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8f64cebd721d846869c8de96085daada, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1e7eae283c35443359875950f2deebe8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 17ee32d1e34294f2dac0f2076f3d91b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 74966f813eecd48269de697c394e39ef, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f4a442f94cde34e028a512ec662d1d48, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f4a442f94cde34e028a512ec662d1d48, type: 2}

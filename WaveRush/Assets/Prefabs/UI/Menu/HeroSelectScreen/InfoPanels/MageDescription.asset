@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663465ece1a844af6b8a51ecdf092f12, type: 3}
+  m_Name: MageDescription
+  m_EditorClassIdentifier: 
+  heroName: 2
+  heroDescription: The <color=#ff0>Mage</color> can harness the power of fire to scorch
+    his enemies to ash.
+  ability1Description: <color=#00f>Swipe</color> to shoot a ball of fire which explodes
+    and deals damage to multiple enemies on impact.
+  ability2Description: <color=#00f>Tap</color> anywhere to teleport to that spot and
+    release a flaming shockwave that damages nearby enemies.
+  specialDescription: <color="#00f">Tap this icon</color> to infuse the <color="#ff0">Mage</color>
+    with fiery power, causing his teleport to set the ground around him on fire which
+    can damage enemies.

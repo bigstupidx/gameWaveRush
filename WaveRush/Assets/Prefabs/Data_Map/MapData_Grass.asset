@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a08a96d65f34a6383a48d66bfb3275, type: 3}
+  m_Name: MapData_Grass
+  m_EditorClassIdentifier: 
+  mapType: 1
+  terrainSprites:
+  - {fileID: 21300012, guid: ecfd354e191be47f9a3e6deb49cd8d05, type: 3}
+  - {fileID: 21300014, guid: ecfd354e191be47f9a3e6deb49cd8d05, type: 3}
+  - {fileID: 21300016, guid: ecfd354e191be47f9a3e6deb49cd8d05, type: 3}
+  - {fileID: 21300018, guid: ecfd354e191be47f9a3e6deb49cd8d05, type: 3}
+  terrainObjects:
+  - sprite: {fileID: 21300000, guid: ecfd354e191be47f9a3e6deb49cd8d05, type: 3}
+    flattened: 0
+  - sprite: {fileID: 21300002, guid: ecfd354e191be47f9a3e6deb49cd8d05, type: 3}
+    flattened: 0
+  - sprite: {fileID: 21300004, guid: ecfd354e191be47f9a3e6deb49cd8d05, type: 3}
+    flattened: 0
+  - sprite: {fileID: 21300006, guid: ecfd354e191be47f9a3e6deb49cd8d05, type: 3}
+    flattened: 0
+  - sprite: {fileID: 21300008, guid: ecfd354e191be47f9a3e6deb49cd8d05, type: 3}
+    flattened: 0
+  - sprite: {fileID: 21300010, guid: ecfd354e191be47f9a3e6deb49cd8d05, type: 3}
+    flattened: 0
+  bossSpawnPrefab: {fileID: 149346, guid: 6f51787b2b9ca41fab012d2601de59ce, type: 2}
+  edgeProps:
+  - {fileID: 116052, guid: b7117b5e3556c40e2beb5235b2db7d9d, type: 2}
+  - {fileID: 169836, guid: 45a96502be1504de784f58b819d5adb1, type: 2}
+  - {fileID: 114062, guid: dc815a25f144b41f2bef97248b5e10f0, type: 2}
+  - {fileID: 129570, guid: 89d5b50e95a24448fb496c1070618991, type: 2}
+  - {fileID: 108040, guid: 16813afaef7ca423f8bba9a257aee127, type: 2}
+  borderSprite: {fileID: 21300000, guid: c44779ab1893b4d4d914cde243249ece, type: 3}
+  cornerBorderSprite: {fileID: 21300002, guid: c44779ab1893b4d4d914cde243249ece, type: 3}
+  bgColor: {r: 0.25490198, g: 0.454902, b: 0.26666668, a: 0}
+  musicLoop: {fileID: 8300000, guid: e1bb563ce882a487b9c30580cb80c303, type: 3}
+  musicIntro: {fileID: 0}

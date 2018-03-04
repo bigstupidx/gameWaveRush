@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: goblin_healer
+  m_Controller: {fileID: 9100000, guid: f6f110f963665410abc1968f2e06f8cb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8f64cebd721d846869c8de96085daada, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: db87d6c81b4514824835f2b92da2b030, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 17ee32d1e34294f2dac0f2076f3d91b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 54c44dc1417104f928016727bb7a851a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f4a442f94cde34e028a512ec662d1d48, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f4a442f94cde34e028a512ec662d1d48, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 84dd62974ef7c4fcc8c4e8c821719dae, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e94df64e7b5764695bee4fd8372b11ed, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6c352b92207094b3eb2ca6b1228f3ff6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 37f98514dd69544038cb02554d729053, type: 2}

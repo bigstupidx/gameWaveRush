@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fd01cad7667e146ad93f91c199ebf834
+timeCreated: 1497729730
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -1
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hardpixel
+  fontNames:
+  - Hardpixel
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e50080cfe06c4c588d8ada2112c13b7, type: 3}
+  m_Name: Collection_RegularStages
+  m_EditorClassIdentifier: 
+  collectionName: Regular Stages
+  series:
+  - {fileID: 11400000, guid: 67423bd8ab3084c6e988a2ef3b628dd8, type: 2}
+  - {fileID: 11400000, guid: 2470fcb26ee51434091fd5b6261dfe12, type: 2}
